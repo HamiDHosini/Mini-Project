@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+button{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    box-shadow:inset 0 0 5px -1px black;
+}
+.panel{
+    padding: 0px 10px;
+    max-height: 0;
+    overflow: hidden;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow:inset 0 0 5px -1px black;
+    transition: all 0.5s;
+  
+}
+.panel p{
+    text-align: center;
+}
