@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    height: 100vh;
+    background: linear-gradient(to right, #66ff91, #5e81ff);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .container {
+    visibility: hidden;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px 10px;
+    box-shadow: 0 0 10px -3px black;
+    position: absolute;
+  }
+  .ul-list {
+    list-style-type: none;
+    padding: 0 10px;
+  }
+  .item {
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .item i {
+    padding-right: 10px;
+  }
+  .item:hover {
+    background-color: #0100002e;
+    border-radius: 5px;
+  }
+  .ul-list .setting {
+    border-top: 1px solid #ccc;
+    margin: 10px 0;
+    padding-top: 10px;
+  }
+  .share {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .share-list {
+    visibility: hidden;
+    position: absolute;
+    left: 270px;
+    width: 170px;
+    background-color: #fff;
+    box-shadow: 0 0 10px -3px black;
+    border-radius: 10px;
+    padding: 10px 5px;
+    list-style-type: none;
+  }
+  .share:hover .share-list {
+    visibility: visible;
+  }
