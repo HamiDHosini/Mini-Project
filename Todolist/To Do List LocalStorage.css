@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container{
+    max-height: 400px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 0 10px -5px rgb(0, 136, 182);
+    border-radius: 15px;
+ 
+}
+.header{
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px -5px rgb(0, 136, 182);
+    color: rgb(0, 136, 182);
+}
+.container div{
+    width: 100%;
+    display: flex;
+}
+.container-body{
+    display: flex;
+    margin: 10px;
+
+}
+input{
+    width: 70%;
+    padding: 10px ;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    background-color: lightblue;
+    box-shadow: 0 2px 5px -2px black;
+
+}
+button{
+    width: 25% ;
+    padding: 10px 0;
+    outline: 0;
+    border: 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px -2px black;
+    margin-left: 5px;
+    cursor: pointer;
+
+}
+ul{
+    width: 93%;
+    list-style-type: none;
+    overflow-y: auto;
+}
+li{
+
+    background-color: lightblue;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px 0;
+    color: black;
+    width: 100%;
+    position: relative;
+    transition: all 0.5s;
+    overflow-x: scroll;
+}
+i:hover{
+    color: red;
+}
+ul li.Done{
+    background-color: yellowgreen;
+    color: #fff;
+    text-decoration: line-through;
+
+}
+.closeBtn{
+    display: none;
+    position: absolute;
+    right: 10px;
+}
+li:hover .closeBtn{
+    display: inline-block;
+}
+li:hover{
+    background-color: rgb(0, 136, 182);
+}
