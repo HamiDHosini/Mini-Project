@@ -4,7 +4,7 @@ let setAlarm = document.querySelector('#setAlarm')
 let alarmTime , alarmSet = 'noset';  
 let content = document.querySelector('.content')
 
-let ring = new Audio('../ringtone.mp3')
+let ring = new Audio('./ringtone.mp3')
 for(let i = 23 ; i>=0 ; i--){
   if(i < 10){
     i = '0' + i
