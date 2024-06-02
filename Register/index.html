@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="">
+<head>
+  <meta charset="UTF-8">
+  <title>Register - form</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<main>
+        <div class="stepper">
+            <div class="step--1 step-active"></div>
+            <div class="step--2"></div>
+            <div class="step--3"></div>
+            <div class="step--4"></div>
+        </div>
+        <form class="form form-active">
+            <div class="form--header-container">
+                <h1 class="form--header-title">
+                    New account
+                </h1>
+
+                <p class="form--header-text">
+                    Tell us more about you.
+                </p>
+            </div>
+            <input type="text" placeholder="Name" required />
+            <input type="text" placeholder="Email" required/>
+            <input type="password" placeholder="Password" required/>
+            <button  class="form__btn" id="btn-1">Next</button>
+        </form>
+        <form class="form">
+            <div class="form--header-container">
+                <h1 class="form--header-title">
+                    Company Info
+                </h1>
+
+                <p class="form--header-text">
+                    Tell us more about your company.
+                </p>
+            </div>
+
+            <input type="text" required placeholder="Company Name" />
+            <input type="text" required placeholder="Job title" />
+            <input type="text" required placeholder="Location" />
+            <button class="form__btn" id="btn-2-prev">Previous</button>
+            <button class="form__btn" id="btn-2-next">Next</button>
+        </form>
+        <form class="form">
+            <div class="form--header-container">
+                <h1 class="form--header-title">
+                    Social account
+                </h1>
+
+                <p class="form--header-text">
+                    Tell us more about your social account.
+                </p>
+            </div>
+            <input type="text" required placeholder="Linkedin" />
+            <input type="text" required placeholder="Twitter" />
+            <input type="text" required placeholder="Github" />
+
+            <button class="form__btn" id="btn-3">Submit</button>
+        </form>
+        <div class="form--message"></div>
+    </main>
+
+    <script src="./script.js"></script>
+
+</body>
+</html>
