@@ -1,0 +1,21 @@
+button {
+    width: 120px;
+    text-align: center;
+    padding: 10px 26px;
+    font-size: large;
+    border-radius: 5px;
+    border: none;
+    margin: 0 10px;
+}
+
+.increase {
+    background-color: #43dd77;
+}
+
+.decrease {
+    background-color: #ff6464;
+}
+
+.reset {
+    background-color: #dbd5d5;
+}
